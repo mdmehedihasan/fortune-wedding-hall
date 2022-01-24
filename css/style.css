@@ -9,6 +9,10 @@
 .margin-top{
     margin-top: -30px;
 }
+.margin-top-bottom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 .radius{
     border-radius: 25px;
 }
@@ -17,4 +21,15 @@
 }
 .low-zindex{
     z-index: 10;
+}
+.shadows{
+    box-shadow: 1px 10px 2px 5px rgba(123, 123, 126, 0.2);
+}
+
+
+
+@media only screen and (max-width: 576px) {
+  body {
+    margin-top: 0px;
+  }
 }
