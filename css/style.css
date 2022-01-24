@@ -25,6 +25,13 @@
 .shadows{
     box-shadow: 1px 10px 2px 5px rgba(123, 123, 126, 0.2);
 }
+.background-card{
+    background:#e6e6e6d7 ;
+}
+.background-btn{
+    background: #EED7CE;
+
+}
 
 
 
