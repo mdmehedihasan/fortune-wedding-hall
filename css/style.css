@@ -9,8 +9,8 @@
 .margin-top{
     margin-top: -30px;
 }
-.margin-top-section{
-    margin-top: 50px;
+/* .margin-top-section{
+    margin-top: 50px; */
 }
 .margin-top-bottom{
     margin-top: 50px;
@@ -37,9 +37,18 @@
 }
 
 
-
-@media only screen and (max-width: 576px) {
-  body {
-    margin-top: 0px;
-  }
+/* mobile responsive  */
+@media only screen and (max-width:768px) {
+.margin-top{
+    margin-top: 10px;
 }
+  }
+
+  /* trablet responsive */
+  @media only screen and (max-width: 991px) and (min-width: 776px)  {
+      .margin-top{
+          margin-top: 5px;
+      }
+}
+
+
