@@ -1,3 +1,12 @@
 .margin-top{
     margin-top: -30px;
 }
+.radius{
+    border-radius: 25px;
+}
+.hig-zindex{
+    z-index: 100;
+}
+.low-zindex{
+    z-index: 10;
+}
